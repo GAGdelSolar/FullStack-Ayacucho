@@ -10,4 +10,4 @@ if (nro2 > mayor) {
 if (nro3 > mayor) {
     mayor = nro3;
 }
-console.log("El numero mas grande ingresado es: " + mayor);
+console.log("El numero mas grande ingresado es: " + mayor + "el mas grandeeeee");
