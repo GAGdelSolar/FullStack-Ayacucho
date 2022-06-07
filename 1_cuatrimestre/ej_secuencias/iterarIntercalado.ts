@@ -14,3 +14,6 @@ for (indice=0, 6, indice++){
 
 }
 console.log (arregloC);
+
+
+
