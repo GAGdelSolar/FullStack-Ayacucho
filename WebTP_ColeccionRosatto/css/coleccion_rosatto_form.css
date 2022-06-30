@@ -1,0 +1,144 @@
+body{
+  background-color: #272727;
+}
+*{
+  margin: 3px;
+  padding: 1px;
+}
+#divEncabezado {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    border-radius: 3px;
+    padding: 1px;
+    
+    margin: 1px
+  }
+.botones{
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  font-family: 'Great Vibes';
+  font-weight: lighter;
+  
+}
+.botones a{
+  float: left;
+  padding: 1%;
+  background-color: #454546;
+  color: white;
+  font-size: 22px;
+  width: 19.6%; 
+  text-align: center;
+  text-decoration: none;
+  justify-content: center ;
+  border-radius: 3px;
+}
+.botones a:hover{
+    color: black;
+    background-color: #eaeaea;
+  }
+.text {
+  color: beige;
+  font-family: 'Cursive', Apple Chancery, monospace;
+
+}
+
+.firma {
+  color:#8c8c8c;
+  font-family: 'Beau Rivage';
+  font-size: 20pt;
+}
+#divPie {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  border-radius: 3px;
+  padding: 1px;
+  margin: 1px;
+  flex-direction: column;
+  
+}
+#divPie img {
+  display: block;
+  justify-content: center;
+  margin-left:  auto;
+  margin-right: auto;
+}
+#divPie p {
+  color: #666666;
+  display: block;
+  justify-content: center;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+  /*form*/
+  
+  *{box-sizing:border-box;}
+  
+    form{
+      width:30%;
+      padding:16px;
+      border-radius:10px;
+      margin:auto;
+      background-color:#ccc;
+    }
+    
+    form label{
+      width:30%;
+      font-weight:bold;
+      display:inline-block;
+    }
+    
+    form input[type="text"],
+    form input[type="email"]{
+      width:180px;
+      padding:3px 10px;
+      border:1px solid #f6f6f6;
+      border-radius:3px;
+      background-color:#f6f6f6;
+      margin:8px 0;
+      display:inline-block;
+    }
+    
+    form input[type="submit"]{
+      width:100%;
+      padding:8px 16px;
+      margin-top:32px;
+      border:1px solid #000;
+      border-radius:5px;
+      display:block;
+      color:#fff;
+      background-color:#000;
+    } 
+    
+    form input[type="submit"]:hover{
+      cursor:pointer;
+      color: black;
+      background-color: #eaeaea;
+    }
+    
+    form input[type="submit"]::after{
+      cursor:pointer;
+      color: rgb(150, 18, 18);
+      background-color: #652679;
+    }
+    textarea{
+      width:100%;
+      height:100px;
+      border:1px solid #f6f6f6;
+      border-radius:3px;
+      background-color:#f6f6f6;			
+      margin:8px 0;
+      /*resize: vertical | horizontal | none | both*/
+      resize:none;
+      display:block;
+    }
+  .firma {
+    color:#8c8c8c;
+    font-family: 'Cursive', Brush Script MT, monospace;
+    font-size: 20pt;
+  }
