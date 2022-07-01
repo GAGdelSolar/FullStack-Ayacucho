@@ -15,6 +15,22 @@ body{
     
     margin: 1px
   }
+  .map{
+    border-radius: 10px;
+  }
+
+  .address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1%;
+    color: #f6f6f6;
+    font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: large;
+  border-radius: 3px;
+  }
 .botones{
   display: flex;
   width: 100%;
