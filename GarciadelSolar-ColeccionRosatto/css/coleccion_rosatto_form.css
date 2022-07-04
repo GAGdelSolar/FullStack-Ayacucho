@@ -1,0 +1,167 @@
+body {
+  background-color: #272727;
+}
+* {
+  margin: 3px;
+  padding: 1px;
+}
+#divEncabezado {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  border-radius: 3px;
+  padding: 1px;
+
+  margin: 1px;
+}
+.map {
+  border-radius: 10px;
+}
+
+.direccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 1%;
+  color: #f6f6f6;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: large;
+  border-radius: 3px;
+}
+.botones {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  font-family: "Great Vibes";
+  font-weight: lighter;
+}
+.botones a {
+  float: left;
+  padding: 1%;
+  background-color: #454546;
+  color: white;
+  font-size: 22px;
+  width: 19.6%;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 3px;
+}
+.botones a:hover {
+  color: black;
+  background-color: #eaeaea;
+}
+
+.text {
+  color: beige;
+  font-family: "Cursive", Apple Chancery, monospace;
+}
+
+#divPie {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  border-radius: 3px;
+  padding: 1px;
+  margin: 1px;
+  flex-direction: column;
+}
+#divPie img {
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#divPie p {
+  color: #666666;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*form*/
+
+form {
+  flex-direction: column;
+  width: 30%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #ccc;
+}
+
+form label {
+  width: 30%;
+  font-weight: bold;
+  display: inline-block;
+}
+
+form input {
+  width: 92%;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: block;
+}
+
+form button {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  background-color: #000;
+}
+
+form button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #eaeaea;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+#app {
+  background-color: #454545;
+  width: 15%;
+  height: 30px;
+  justify-content: center;
+  align-self: center;
+  color: wheat;
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+#validacion {
+  justify-content: auto;
+  text-align: center;
+  margin: auto;
+  width: 85%;
+  background-color: #454545;
+  color: wheat;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.firma {
+  color: #8c8c8c;
+  font-family: "Cursive", Brush Script MT, monospace;
+  font-size: 20pt;
+}
